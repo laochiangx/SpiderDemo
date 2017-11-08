@@ -6,7 +6,7 @@ using System.Net;
 using System.Text.RegularExpressions;
 using System.IO;
 
-namespace Reptile
+namespace Spider
 {
     class Program
     {
