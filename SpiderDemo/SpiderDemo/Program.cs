@@ -17,12 +17,18 @@ namespace Spider
             WebClient wc = new WebClient();
             wc.Encoding = Encoding.UTF8;
             //下载源网页代码  
-            string html = wc.DownloadString("https://dongxi.douban.com/articles/");
-            MatchCollection matches = Regex.Matches(html, "<img.*src=\"(.+?)\".*>");
+            string html = wc.DownloadString("https://tieba.baidu.com/p/2460150866?pn=3");
+            MatchCollection matches =  Regex.Matches(html, "src=\"(.+?\\.jpg)\" pic_ext");// Regex.Matches(html, "<img.*src=\"(.+?)\".*>");
+            int i=1;
             foreach (Match item in matches)
             {
+                string str = item.Groups[1].Value.Substring(item.Groups[1].Value.LastIndexOf("."), 4);//截取图片后缀名称
                 //下载图片到指定路径  
-                wc.DownloadFile(item.Groups[1].Value, @"E:\pic\" + Path.GetFileName(item.Groups[1].Value));
+               // wc.DownloadFile(item.Groups[1].Value, @"E:\pic\" + Path.GetFileName(item.Groups[1].Value));
+                Console.WriteLine("正在下载..." + item.Groups[1].Value); 
+                wc.DownloadFile(item.Groups[1].Value, @"E:\pic\" + i + str);
+                Console.WriteLine( i + str+"下载完毕，准备下一张.." ); 
+                i++;
             }
 
             //博客园大神文章列表 及阅读详情

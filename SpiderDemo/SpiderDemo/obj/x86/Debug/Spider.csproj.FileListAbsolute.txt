@@ -2,3 +2,8 @@ C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SpiderDemo\SpiderDe
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SpiderDemo\SpiderDemo\obj\x86\Debug\ConsoleApplication1.pdb
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SpiderDemo\SpiderDemo\bin\Debug\ConsoleApplication1.exe
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SpiderDemo\SpiderDemo\bin\Debug\ConsoleApplication1.pdb
+E:\github合集\ReptileDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\ConsoleApplication1.exe
+E:\github合集\ReptileDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\ConsoleApplication1.pdb
+E:\github合集\ReptileDemo\SpiderDemo\SpiderDemo\bin\Debug\ConsoleApplication1.exe
+E:\github合集\ReptileDemo\SpiderDemo\SpiderDemo\bin\Debug\ConsoleApplication1.pdb
+E:\github合集\ReptileDemo\SpiderDemo\SpiderDemo\obj\x86\Debug\Spider.csprojResolveAssemblyReference.cache
